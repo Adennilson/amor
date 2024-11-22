@@ -1,0 +1,52 @@
+@media (max-width: 500px ){
+
+
+body{
+    background-color: #171717;
+    padding: 5px 30px;
+    text-align: center;
+}
+.porta{
+    background-color: #000000;
+    border-radius:15px;
+    text-align: center;
+    height: 400px;
+    
+}
+img{
+    height: 100%;
+}
+h2{
+    color: #c50000;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 25px;
+    color: #fff;
+    font-family: "Great Vibes", cursive;
+}
+
+
+.container{
+    background-color: #000000;
+    color: #fff;
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius:15px;
+    align-content: center;
+
+    
+}
+#countdown{
+    align-content: baseline;
+    background-color: #c50000;
+    padding: 10px;
+    display: block;
+}
+}
