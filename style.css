@@ -1,6 +1,7 @@
 body {
-  background-color: #000;
-    
+  background-color: #f927ac;
+  padding: 0;
+   margin: 0;
   }
   main {
     display: grid;
@@ -9,7 +10,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #05041d;
+    background-color: #1e202d;
     padding: 0px 50px;
   }
   h3{
@@ -262,22 +263,25 @@ body {
   .corpo{
     margin: 0;
     padding: 0;
-    border-top: 1px solid #a8a7a8;
-    box-shadow: 4px 2px 8px #aa40aa ;
+    border-left: 3px solid #858585;
+    box-shadow: 1px 4px 8px #0c0c0c ;
   }
   .corpo p{
     display: grid;
     grid-template-columns: 1fr; /* Single column */
     grid-gap: 10px; /* Spacing between elements */
     text-align: center;
-    color: #b9b9c7;
-    border: 1px solid #e803d4;
+    color: #dedee2;
+    border: 1px solid #000000;
+    border-left: 1px solid #858585;
+ 
     padding: 10px;
+    box-shadow: 0px 2px 8px #010101;
     
   }
   .fotos {
     background-color: #000;
-    border-radius: 20px;
+    border-radius: 0px;
     width: 400px;
     height: 260px;
     display: flex; /* Para organizar as fotos em linha */
@@ -292,6 +296,8 @@ body {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Sombra para destaque */
 }
 main .foto{
+  margin-top: 20px;
+  border-left: 3px solid #858585;
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
@@ -309,6 +315,7 @@ main .foto img{
 }
 main .foto img:hover{
   transform: scale(1.1);
+  box-shadow: 1px 1px 9px #000;
 }
 
 footer{
