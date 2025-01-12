@@ -318,6 +318,23 @@ main .foto img:hover{
   box-shadow: 1px 1px 9px #000;
 }
 
+.teamo{
+  border-top: 1px solid #a8a7a8;
+  border-bottom: 1px solid #a8a7a8;
+  color: red;
+  margin-bottom: 10px;
+  
+}
+.recado{
+  display: grid;
+  align-items: center;
+  color: #a8a7a8;
+}
+video{
+  margin-top: 20px;
+  width: 400px;
+  height:50%px;
+}
 footer{
   color: #a2a2a2;
   text-align: center;
@@ -325,11 +342,4 @@ footer{
   justify-content: center;
   padding: 10px;
   background-color: #1c1c1c;
-}
-.teamo{
-  border-top: 1px solid #a8a7a8;
-  border-bottom: 1px solid #a8a7a8;
-  color: red;
-  margin-bottom: 10px;
-  
 }
