@@ -323,7 +323,15 @@ main .foto img:hover{
   border-bottom: 1px solid #a8a7a8;
   color: red;
   margin-bottom: 10px;
-  
+}
+.teamo h1{
+  animation: pulse 1s ease-in-out infinite; /* Animação, duração, função de tempo, repetições */
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); } /* Tamanho inicial */
+  50% { transform: scale(1.05); } /* Tamanho máximo */
+  100% { transform: scale(1); } /* Tamanho final (igual ao inicial) */
 }
 .recado{
   display: grid;
@@ -342,4 +350,4 @@ footer{
   justify-content: center;
   padding: 10px;
   background-color: #1c1c1c;
-}
+    }
